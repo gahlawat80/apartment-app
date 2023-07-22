@@ -10,8 +10,8 @@ const Contact = () => {
       <Header />
       <Navigation />
       <article className="contact">
-        <div className="contact_form">
-            <form>
+        <form>
+            <div className="contact_form">            
                 <div className="contact_form_top">
                     <div className="contact_form_top_left">
                         <div className="contact_form_field">
@@ -54,9 +54,18 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="contact_form_bottom"></div>
-            </form>
-        </div>
+                <div className="contact_form_bottom">
+                    <div className="contact_form_field">
+                        <label htmlFor="msg">Message:</label>
+                        <textarea id="msg"></textarea>
+                    </div>
+                    <div className="cta_buttons">
+                        <button>Send</button>
+                        <button>Deals</button>
+                    </div>
+                </div>            
+            </div>
+        </form>
       </article>
       <CommunityInfo />
       <Footer />
