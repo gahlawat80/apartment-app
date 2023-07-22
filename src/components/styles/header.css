@@ -1,0 +1,26 @@
+.header{
+    background: #21746f;
+    height: 10vh;
+}
+.header .container{
+    width: 58%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    height: 10vh;
+}
+.header article{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+.header h4{
+    font-weight: normal;
+    margin-left: 0.3rem;
+}

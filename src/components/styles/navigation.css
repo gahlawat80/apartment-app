@@ -1,0 +1,38 @@
+.navigation{
+    height: 8vh;
+    background: #fff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.08);
+}
+.navigation ul{
+    height: 8vh;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigation li a{
+    text-decoration: none;
+    color: #555;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
+    padding-bottom: 0.25rem;
+    
+    position: relative;
+}
+.navigation li a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 0.2rem;
+    background: #21746f;
+    transition: all 0.25s ease-in;
+}
+.navigation li a:hover::after{
+    width: 100%;
+}
+.navigation .active{
+    border-bottom: 0.2rem  solid #21746f;
+}

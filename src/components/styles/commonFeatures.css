@@ -1,0 +1,67 @@
+.commonFeatures,
+.recrations{
+    margin: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.commonFeatures_left,
+.recreations_right{
+    width: 62%;
+    font-family: 'Roboto', sans-serif;
+}
+.features_title{
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #1e3632;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1rem;
+    letter-spacing: 0.08rem;
+}
+.features_text{
+    font-size: 0.98rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+}
+.features_text span{
+    color: #20544b;
+    font-weight: 600;
+}
+.features_list{
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+}
+.features_list li{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    letter-spacing: 0.03rem;
+}
+.commonFeatures_right{
+    width: 32%;
+}
+.commonFeatures_right img,
+.recreations_left img{
+    width: 100%;
+    margin: 0.55rem 0;
+}
+.commonFeatures_btn{
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: #054f63;
+    color: #fff;
+    padding: 1.3rem 2rem;
+    border: none;
+    transition: 0.3s;
+}
+.commonFeatures_btn:hover{
+    background: #032a35;
+}
+.recrations{
+    margin: 1.5rem;
+    align-items: start;
+    justify-content: space-between;
+}
+.recreations_left {
+    width: 35%;
+}

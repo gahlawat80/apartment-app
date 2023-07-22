@@ -1,0 +1,50 @@
+.apartmentCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.apartmentCard{
+    width: 29vw;
+    border: 1.5px solid #44a199;
+    margin: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.apartmentCard img{
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+.aptCardInfo{
+    text-align: left;
+    line-height: 1.5;
+    margin: 3.2rem;
+}
+.aptCardInfo span{
+    letter-spacing: 0.04rem;
+    margin:0 0.2rem;
+}
+.aptInfo_bedBath{
+    font-weight: 600;
+}
+.checkAvailablity{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1.5rem;
+}
+.checkAvailablity a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    background: #d1d1d1;
+    padding: 0.5rem;
+}
+.checkAvailablity button{
+    font-size: 1.02rem;
+    background: #1b6e49;
+    border: none;
+    color: #fff;
+    padding: 0.65rem;
+    transition: 0.3s;
+}
+.checkAvailablity button:hover{
+    background: #21885a;
+}

@@ -1,0 +1,26 @@
+.footer{
+    height: 10vh;
+    background: #106480;
+    color: #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+.footer span,
+.footer a{
+    color: #dadada;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.04rem;
+    margin: 0 0.6rem;
+    text-decoration: none;
+}
+.footer .right{
+    padding: 0.5rem 0.7rem;
+    background: #013b4f;
+    margin-right: 0.75rem;
+}
+.footer .right .fas{
+    font-size: 0.8rem;
+}

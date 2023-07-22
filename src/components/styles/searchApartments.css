@@ -1,0 +1,25 @@
+.searchApt{
+    height: 9vh;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.searchApt select{
+    width: 22.5%;
+    font-size: 1.02rem;
+    padding: 0.3rem;
+}
+.apartments_search {
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: #054f63;
+    color: #fff;
+    padding: 1.3rem 2rem;
+    border: none;
+    transition: 0.3s;
+}
+.apartments_search:hover {
+    background: #032a35;
+}

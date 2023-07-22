@@ -1,0 +1,28 @@
+.promo{
+    margin: 2rem 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(https://images.pexels.com/photos/259781/pexels-photo-259781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat center center/cover;
+    width: 100%;
+    height: 80vh;
+    background-attachment: fixed;
+    position: relative;
+}
+.promo h1{
+    background: #fff;
+    font-size: 2.6rem;
+    font-weight: normal;
+    padding-bottom: 1rem;
+    color: #1a3c37;
+}
+.promo p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02rem;
+    word-spacing: 0.2rem;
+    font-size: 1.05rem;
+}
