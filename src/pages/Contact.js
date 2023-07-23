@@ -57,7 +57,7 @@ const Contact = () => {
                 <div className="contact_form_bottom">
                     <div className="contact_form_field">
                         <label htmlFor="msg">Message:</label>
-                        <textarea id="msg"></textarea>
+                        <textarea id="msg" placeholder='Enter your message...'></textarea>
                     </div>
                     <div className="cta_buttons">
                         <button>Send</button>

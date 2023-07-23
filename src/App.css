@@ -22,7 +22,7 @@
     height: inherit; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
 }
 .contact_form_top{
     display: flex;
@@ -64,6 +64,34 @@
 }
 .contact_form_details span{
     margin-right: 0.6rem;
+}
+.contact_form_bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 2rem 0;
+}
+.contact_form_bottom .contact_form_field label{
+    margin-right: 11rem;
+}
+.contact_form_bottom .contact_form_field textarea{
+    width: 63.5vw;
+    height: 10vh;
+    outline: none;
+}
+.contact_form_bottom .cta_buttons button{
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: #054f63;
+    color: #fff;
+    padding: 1.3rem 2rem;
+    border: none;
+    transition: 0.3s;
+    margin: 1.2rem;
+}
+.contact_form_bottom .cta_buttons button:hover{
+    background: #032a35;
 }
 .bold{
     font-weight: 600;
