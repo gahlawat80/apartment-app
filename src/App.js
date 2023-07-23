@@ -6,6 +6,7 @@ import Error from './pages/Error';
 import Features from './pages/Features';
 import Home from './pages/Home';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+import Login from './pages/Login';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/features' element={<Features />} />
           <Route path='/find-apartment' element={<Apartments />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/login' element={<Login />} />
           <Route path='*' element={<Error />} />
       </Routes>
       </Router>
