@@ -9,7 +9,22 @@ const Login = () => {
     <section className='loginPage'>
       <Header />
       <Navigation active='login'/>
-      <h1>Login details here...</h1>
+      <article className="login_hero">
+        <div className="login_hero_card">
+            <div className="login_hero_card_detail">
+                <label htmlFor="email">Email:</label>
+                <input type="email" id="email" placeholder='Enter your email id...'/>
+            </div>
+            <div className="login_hero_card_detail">
+                <label htmlFor="password">Password:</label>
+                <input type="password" id="password" placeholder='Enter your password...'/>
+            </div>
+            <div className="login_hero_cta">
+                <button>Login</button>
+                <a href="#">Forgot Password?</a>
+            </div>
+        </div>
+      </article>
       <CommunityInfo />
       <Footer />
     </section>

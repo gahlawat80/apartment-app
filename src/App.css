@@ -96,3 +96,70 @@
 .bold{
     font-weight: 600;
 }
+.loginPage{
+    width: 100vw;
+}
+.login_hero{
+    height: 76vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url(https://images.pexels.com/photos/3100371/pexels-photo-3100371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat center center/cover;
+    position: relative;
+}
+.login_hero_card{
+    border: 1px solid #fff;
+    border-radius: 0.25rem;
+    width: 32%;
+    box-shadow: 1px 2px 5px #dcdbdb;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    padding: 1rem;
+    color: #fff;
+}
+.login_hero_card_detail{
+    margin: 1.2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login_hero_card_detail label{
+    font-weight: 500;
+    font-size: 1.05rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.05rem;
+}
+.login_hero_card_detail input{
+    outline: none;
+    font-size: 1.05rem;
+    padding: 0.25rem 0.5rem;
+    width: 72%;
+}
+.login_hero_cta{
+    text-align: center;
+    margin-bottom: 0.8rem;
+}
+.login_hero_cta button{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #075f44;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.3rem;
+    margin-right: 1.6rem;
+    border: 1.5px solid #075f44;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.login_hero_cta button:hover{
+    background: transparent;
+    border: 1.5px solid #fff;
+}
+.login_hero_cta a{
+    color: #e6e4e4;
+    text-decoration: none;
+    font-size: 1.08rem;
+    font-family: 'Roboto', sans-serif;
+}

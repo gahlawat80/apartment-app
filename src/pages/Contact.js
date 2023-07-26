@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <section className='contactPage'>
       <Header />
-      <Navigation />
+      <Navigation active='contact'/>
       <article className="contact">
         <form>
             <div className="contact_form">            
