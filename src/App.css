@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .features{
     display: flex;
     justify-content: space-evenly;
@@ -134,11 +139,13 @@
     padding: 0.25rem 0.5rem;
     width: 72%;
 }
-.login_hero_cta{
+.login_hero_cta,
+.register_hero_cta{
     text-align: center;
     margin-bottom: 0.8rem;
 }
-.login_hero_cta button{
+.login_hero_cta button,
+.register_hero_cta button{
     font-size: 1.1rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -153,13 +160,68 @@
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.login_hero_cta button:hover{
+.login_hero_cta button:hover,
+.register_hero_cta button:hover{
     background: transparent;
     border: 1.5px solid #fff;
 }
-.login_hero_cta a{
+.login_hero_cta a,
+.register_hero_cta a{
     color: #e6e4e4;
     text-decoration: none;
     font-size: 1.08rem;
     font-family: 'Roboto', sans-serif;
+}
+.registerPage{
+    width: 100%;
+}
+.register_hero{
+    width: 100vw;
+    height: 79vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/3100371/pexels-photo-3100371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat center center/cover;
+    position: relative;
+}
+.register_hero_form{
+    border: 1.5px solid #fff;
+    box-shadow: 2px 3px 5px rgba(251, 251, 251, 0.6);
+    width: 35vw;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    padding: 1rem 2rem 1rem 1rem;
+    border-radius: 0.3rem;
+}
+.register_hero_form_detail{
+    color: #fff;
+    margin: 0.7rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.register_hero_form_detail label{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.register_hero_form_detail input{
+    width: 70%;
+    outline: none;
+    font-size: 1.05rem;
+    padding: 0.25rem;
+}
+.gender,.hobbies{
+    font-size: 1.1rem;
+}
+.gender label{
+    margin-right: 4.5rem;
+}
+.hobbies label{
+    margin-right: 4rem;
+}
+.gender input{
+    margin-left: -3rem;
+}
+.hobbies input{
+    margin-left: -2rem;
 }
