@@ -22,5 +22,10 @@
 }
 .header h4{
     font-weight: normal;
-    margin-left: 0.3rem;
+    margin: 0 8rem 0 0.3rem;
+}
+.header article span{
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin-left: 0.5rem;
 }
