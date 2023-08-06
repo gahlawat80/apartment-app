@@ -33,7 +33,7 @@ const Registration = () => {
         if(startIndex>=0){
             //console.log('Slice: '+hobbies.splice(startIndex,stringLength+1))
             const newString = registration.hobbies.slice(0,startIndex)+registration.hobbies.substring((startIndex+stringLength))
-            console.log(newString)
+            //console.log(newString)
             setRegistration({...registration,hobbies:newString})
         } else {    
             if(registration.hobbies.length==0){
