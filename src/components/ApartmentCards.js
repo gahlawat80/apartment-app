@@ -8,8 +8,8 @@ const ApartmentCards = ({apartmentList}) => {
   return (
     <section className='apartmentCards'>
         {apartmentList.map(card=>{
-            const {id,img,bed,bath,minPrice,maxPrice} = card;
-            return <ApartmentCard key={id} img={img} beds={bed} baths={bath} minPrice={minPrice} maxPrice={maxPrice}/>
+            const {baths,beds,id,imageUrl,maxRent,minRent} = card;
+            return <ApartmentCard key={id} img={imageUrl} beds={beds} baths={baths} minPrice={minRent} maxPrice={maxRent}/>
         })}
       
     </section>
